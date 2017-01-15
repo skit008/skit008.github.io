@@ -1,0 +1,360 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.main_nav li{
+		padding: 0px 25px;
+	}
+	.header_content{
+		text-align: center;
+	    float: none;
+	    width: 100%;
+	}
+	.header_descr{
+		margin: 0px auto;
+	}
+	.sale{
+		left: 5%;
+		top: 20%;
+	}
+	footer{
+		padding: 50px 0px;
+	}
+	.header_content h1{
+	    max-width: 650px;
+	    margin-left: 50%;
+	    transform: translateX(-50%);
+	}
+	.all_programs_menu li span{
+		font-size: 16px;
+	}
+	.all_programm_item_descr_buttons button{
+		padding: 5px 55px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.main_nav{
+		padding: 10px 40px;
+		background: rgba(40,40,40,0.9);
+	}
+	.main_nav li{
+		padding: 0px 30px;
+	}
+	 .main_nav li:not(:first-child) {
+	 	display: none;
+	 }
+	  .main_nav li a{
+	  	border: none;
+	  }
+	 .main_nav li a:hover{
+	 	border:none;
+	 	color: #ccc;
+	 }
+	 .icon {
+	    float: right;
+	    display: inline-block;
+	 }
+	.main_nav.responsive {
+		position: fixed;
+	}
+	.main_nav.responsive li.icon {
+	    position: absolute;
+	    right: 0;
+	    top: 0;
+	}
+	.main_nav.responsive li {
+		float: right;
+    	display: block;
+    	width: 100%;
+    	padding: 0px 30px;
+	}
+	.main_nav.responsive li a {
+    	display: block;
+    	text-align: right;
+    	width: auto;
+    	float: right;
+    	padding: 0px;
+	}
+	.programs span{
+		font-size: 30px;
+		line-height: 30px;
+	}
+	.programs p{
+		font-size: 16px;
+	}
+	.main_programm{
+		width: 100%;
+	}
+	footer i{
+		font-size: 20px!important;
+    	margin: 0px 2px;
+	}
+	.footer_col_26{
+		padding: 0px 10px;
+	}
+	.footer_col_17{
+		padding: 0px 10px;
+	}
+	.all_programs_menu{
+		display: none;
+	}
+	.all_programm_item_descr article{
+		padding: 10px 0px;
+		font-size: 14px;
+	}
+	.all_programm_item_descr_buttons button{
+		padding: 5px 30px;
+	}
+	.all_programm_item_descr h2{
+		margin-top: 0px;
+		margin-bottom: 10px;
+	}
+	.adv_image{
+		width: 300px;
+	}
+	.faq_title{
+		font-size: 40px;
+	}
+	.partners img{
+		width: 80px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+	.sale{
+		width: 100%;
+		height: 30px;
+		border-radius: 0px;
+		top: 60px;
+		left: 0px;
+		-webkit-transform: none;
+    	-ms-transform: none;
+    	transform: none;
+    	height: auto;
+    	padding: 10px 0px;
+    	position: absolute;
+	}
+	.sale p{
+		font-size: 40px;
+	    margin: 0;
+	    line-height: 40px;
+	}
+	.header_content h1{
+		margin-left: 0px;
+		-webkit-transform: none;
+    	-ms-transform: none;
+    	transform: none;
+    	font-size: 40px;
+	}
+	.header_descr img{
+		display: none;
+	}
+	.header_descr{
+		width: auto;
+	}
+	.header_descr button{
+		width: 100%;
+		margin: 10px 0px;
+	}
+	.header_btn{
+		width: 100%;
+	}
+	.programm{
+		position: relative;
+	}
+	.programs{
+		width: 100%;
+		border-bottom: solid 1px;
+	}
+	.section_title p:before, .section_title p:after{
+		width: 50px;
+	}
+	.accordeion_item{
+		width: 100%!important;
+		margin-bottom: 30px;
+	}
+	.accordeon_img{
+		background-position: top center;
+	}
+	.partner_item{
+		width: 50%;
+		height: 80px;
+	}
+	.partner_item img{
+		margin: 0px auto;
+		width: auto;
+	}
+	.footer_col_26{
+		width: 100%;
+    	border-bottom: solid 1px #777;
+    	margin-bottom: 30px;
+    	padding-bottom: 30px;
+	}
+	.footer_col_26 *{
+		text-align: center;	
+	}
+	.footer_col_17{
+		width: 33.3333%;
+	}
+	.footer_col_20{
+		width: 100%;
+		border-top: solid 1px #777;
+    	margin-top: 30px;
+    	padding-top: 30px;
+    	text-align: center;	
+	}
+	.item_right{
+		float: none;
+	}
+	.header_descr p{
+		font-size: 16px;
+		float: none;
+		display: block;
+		margin:20px auto;
+	}
+	.programs{
+		float: none;
+	}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+		.order button{
+			width: 100%;
+		}
+		.main_nav{
+			padding: 10px;
+		}
+		.logo{
+			width: 100px;
+			margin-top: 3px;	
+		}
+		.scroll{
+			padding: 5px 10px!important;
+		}
+		.header_content h1{
+			font-size: 28px;	
+		}
+		.header_descr p{
+			width: auto;
+			font-size: 16px;
+		}
+		.sale p{
+			font-size: 30px;	
+			line-height: 30px;	
+		}
+		.sale span{
+			font-size: 16px;	
+		}
+		.programs{
+			float: none;
+		}
+		.section_title p:before, .section_title p:after{
+			width: 15px;
+		}
+		.footer_col_17{
+			width: 100%;
+	    	text-align: center;
+	    	border-bottom: solid 1px #777;
+	    	margin-bottom: 30px;
+	    	padding-bottom: 30px;
+		}
+		.partners img{
+			width: 80px;
+		}
+		.all_programm_item_descr_buttons button{
+			width: 100%;
+    		margin: 5px 0px;
+		}
+		.all_programm_item_descr_point i{
+			margin-right: 15px;	
+		}
+		.programm_desccr{
+			text-align: center;	
+		}
+		.programm_desccr p{
+			width: auto;
+		}
+		.program_adv p{
+			font-size: 16px;	
+		}
+		.program_nutrition_descr{
+			font-size: 16px;	
+		}
+		.program_nutrition_descr p{
+			width: auto;
+		}
+		.program_nutrition_exp ul li{
+			font-size: 16px;	
+		}
+		.faq_title{
+			font-size: 25px;
+    		text-transform: uppercase;
+    		text-align: center;
+		}
+		.food_item_descr p{
+			font-size: 16px;	
+		}
+		.video_item .video_item_descr_ext span i{
+			font-size: 20px;	
+		}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
