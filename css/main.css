@@ -156,22 +156,22 @@ section{
 	height: 100%;
 }
 .program_one{
-	background-image: url(img/programm_1.jpg);
+	background-image: url(../img/programm_1.jpg);
 	background-position: center;
 	background-size: cover; 
 }
 .program_two{
-	background-image: url(img/programm_2.jpg);
+	background-image: url(../img/programm_2.jpg);
 	background-position: center;
 	background-size: cover; 
 }
 .program_three{
-	background-image: url(img/programm_3.jpg);
+	background-image: url(../img/programm_3.jpg);
 	background-position: center;
 	background-size: cover; 
 }
 .program_four{
-	background-image: url(img/programm_4.jpg);
+	background-image: url(../img/programm_4.jpg);
 	background-position: center;
 	background-size: cover; 
 }
@@ -417,19 +417,19 @@ section{
 	background-color: #2741c5;
 }
 .more_programs1 .accordeon_img{
-	background-image: url(img/more_programs1.jpg);
+	background-image: url(../img/more_programs1.jpg);
 }
 .more_programs2 .accordeon_img{
-	background-image: url(img/more_programs2.jpg);
+	background-image: url(../img/more_programs2.jpg);
 }
 .more_programs3 .accordeon_img{
-	background-image: url(img/more_programs3.jpg);
+	background-image: url(../img/more_programs3.jpg);
 }
 .more_programs4 .accordeon_img{
-	background-image: url(img/more_programs4.jpg);
+	background-image: url(../img/more_programs4.jpg);
 }
 .more_programs5 .accordeon_img{
-	background-image: url(img/more_programs5.jpg);
+	background-image: url(../img/more_programs5.jpg);
 }
 .accordeon_visible span{
 	width: 100%;
@@ -770,7 +770,7 @@ footer img{
 	background-size: cover;
 	background-position: center; 
 	position: relative;
-	background-image: url(img/program1_bg.jpg);
+	background-image: url(../img/program1_bg.jpg);
 	padding:100px 0px;
 	color: #fff
 }
@@ -858,7 +858,7 @@ footer img{
 	font-weight: 300;
 }
 .programm_nutrition{
-	background-image: url(img/nutrition.jpg);
+	background-image: url(../img/nutrition.jpg);
     background-position: top;
     padding-top: 250px;
     background-repeat: no-repeat;
@@ -979,16 +979,16 @@ footer img{
     width: 100%;
 }
 .recepie_one{
-	background-image: url(img/recepie1.jpg);
+	background-image: url(../img/recepie1.jpg);
 }
 .recepie_two{
-	background-image: url(img/recepie2.jpg);
+	background-image: url(../img/recepie2.jpg);
 }
 .recepie_three{
-	background-image: url(img/recepie3.jpg);
+	background-image: url(../img/recepie3.jpg);
 }
 .recepie_four{
-	background-image: url(img/recepie4.jpg);
+	background-image: url(../img/recepie4.jpg);
 }
 .food_recepie{
 	margin-bottom: 50px;
